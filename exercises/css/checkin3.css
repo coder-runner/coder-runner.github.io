@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(255, 0, 0);
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    border: 3px solid black; 
+    display: grid;
+    grid-template-rows: 0.15fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    min-height: 100vh;
+    font-size: x-large;
+    
+}   
+
+header {
+   
+    background-color: blue;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    text-align: center;
+    align-content: center;
+    color: azure;
+    font-size: 225%;
+    text-decoration: solid;
+
+}
+
+.title {
+    background-color: rgb(0, 0, 0);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    align-content: center;
+    color: azure;
+    font-size:120%;
+
+}
+
+.image2 {
+    background-color: rgb(187, 0, 255);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 7;
+
+}
+
+.bottomimage {
+    background-color: rgb(255, 255, 255);
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.textboxleft {
+    padding: 1rem;
+    background-color: rgb(255, 89, 0);
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+
+    
+}
+
+.textboxright {
+    padding: 1rem;
+    background-color: rgb(251, 255, 0);
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    min-width: 0; 
+}
+
+.float-image {
+    float: right;
+}
