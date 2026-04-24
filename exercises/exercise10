@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head> 
+        
+        <meta charset="UTF-8">
+        
+
+            <title> Exercise #10 - CSS Nav Bar </title>
+            <link href="css/exercise10.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="wrapper">
+        <header>
+            <h2>Aidan Nisbett</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                     <li><a href="#">Portfolio</a></li>
+                      <li><a href="#">Resume</a></li>
+                       <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>About Me</h1>
+            <p>I am an intern for <a href="https://www.catalystplanet.com/">Catalyst Planet</a></p>
+            <p>Listed below are some of my interests</p>
+            <ul>
+                <li>Biking</li>
+                <li>Reading</li>
+                <li>Writing</li>
+            </ul>
+        </main>
+        <footer><address>Contact me at aidannisbett@umass.edu</address></footer>
+        </div>
+    </body>
+</html>
