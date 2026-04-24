@@ -1,0 +1,65 @@
+.wrapper {
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: 1fr 0.1fr 0.1fr 0.1fr 1fr;
+    grid-template-columns: 1fr;
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    min-height: 100vh;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.top-img {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.bottom-img {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.bar1 {
+    background: #9b6a2a;
+background: radial-gradient(circle,rgba(155, 106, 42, 1) 0%, rgba(227, 158, 54, 1) 54%, rgba(237, 221, 83, 1) 100%);
+    grid-row-start:2;
+    grid-row-end:3;
+    grid-column-start:1;
+    grid-column-end:1;
+    text-align: center;
+    align-content: center;
+}
+
+.bar2 {
+   background: #9b6a2a;
+background: radial-gradient(circle,rgba(155, 106, 42, 1) 0%, rgba(227, 158, 54, 1) 54%, rgba(237, 221, 83, 1) 100%);
+    grid-row-start:3;
+    grid-row-end:4;
+    grid-column-start:1;
+    grid-column-end:1;
+    text-align: center;
+    align-content: center;
+}
+
+.bar3 {
+   background: #9b6a2a;
+background: radial-gradient(circle,rgba(155, 106, 42, 1) 0%, rgba(227, 158, 54, 1) 54%, rgba(237, 221, 83, 1) 100%);
+    grid-row-start:4;
+    grid-row-end:5;
+    grid-column-start:1;
+    grid-column-end:1;
+    text-align: center;
+     align-content: center;
+}
+
